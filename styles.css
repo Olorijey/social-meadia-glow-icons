@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(8, 2, 14);
+}
+
+.container {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icons {
+    padding: 30px;
+    width: 450px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.facebook {
+    cursor: pointer;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 5px solid white;
+    border-radius:  50%;
+    transition: all 0-.3s;
+    font-size: 30px;
+}
+
+.instagram {
+    cursor: pointer;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 5px solid white;
+    border-radius:  50%;
+    transition: all 0-.3s;
+    font-size: 30px;
+}
+
+.twitter {
+    cursor: pointer;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 5px solid white;
+    border-radius:  50%;
+    transition: all 0-.3s;
+    font-size: 30px;
+}
+
+.whatsapp {
+    cursor: pointer;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 5px solid white;
+    border-radius:  50%;
+    transition: all 0-.3s;
+    font-size: 30px;
+}
+
+.youtube {
+    cursor: pointer;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 5px solid white;
+    border-radius:  50%;
+    transition: all 0-.3s;
+    font-size: 30px;
+}
+
+.facebook:hover {
+    border-color: #0010f5;
+    box-shadow: 0 0 20px #0010f5;
+    color: #0010f5;
+}
+
+.twitter:hover {
+    border-color: #00b8d4;
+    box-shadow: 0 0 20px #00b8d4;
+    color: #00b8d4;
+}
+
+.instagram:hover {
+    border-color: #dc00ff;
+    box-shadow: 0 0 20px #dc00ff;
+    color: #dc00ff;
+}
+
+.whatsapp:hover {
+    border-color: #22ff00;
+    box-shadow: 0 0 20px #22ff00;
+    color: #22ff00;
+}
+
+.youtube:hover {
+    border-color: #ff001e;
+    box-shadow: 0 0 20px #ff001e;
+    color: #ff001e;
+}
